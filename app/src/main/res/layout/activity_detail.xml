@@ -17,7 +17,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/main"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:background="@color/color_background">
 
             <LinearLayout
@@ -87,7 +87,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/strawford_medium"
-                        android:text="Type"
+                        android:text="@string/type"
                         android:textColor="@color/color_light_gray"
                         android:textSize="14sp" />
 
@@ -95,7 +95,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/strawford_medium"
-                        android:text="Article"
+                        android:text="@string/article"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
 
@@ -111,7 +111,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/strawford_medium"
-                        android:text="Category"
+                        android:text="@string/category"
                         android:textColor="@color/color_light_gray"
                         android:textSize="14sp" />
 
@@ -119,7 +119,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/strawford_medium"
-                        android:text="Technology"
+                        android:text="@string/technology"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
 
@@ -135,7 +135,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/strawford_medium"
-                        android:text="Date"
+                        android:text="@string/date_text"
                         android:textColor="@color/color_light_gray"
                         android:textSize="14sp" />
 
@@ -274,7 +274,7 @@
                     android:layout_gravity="fill"
                     android:backgroundTint="@color/white"
                     android:fontFamily="@font/strawford_medium"
-                    android:text="Spatial Computing"
+                    android:text="@string/spatial_computing"
                     android:textColor="@color/black" />
 
                 <Button
@@ -285,7 +285,7 @@
                     android:layout_gravity="fill"
                     android:backgroundTint="@color/white"
                     android:fontFamily="@font/strawford_medium"
-                    android:text="Industrial Metaverse"
+                    android:text="@string/industrial_metaverse"
                     android:textColor="@color/black" />
 
                 <Button
@@ -296,7 +296,7 @@
                     android:layout_gravity="fill"
                     android:backgroundTint="@color/white"
                     android:fontFamily="@font/strawford_medium"
-                    android:text="AR in Retail"
+                    android:text="@string/ar_in_retail"
                     android:textColor="@color/black" />
 
                 <Button
@@ -307,7 +307,7 @@
                     android:layout_gravity="fill"
                     android:backgroundTint="@color/white"
                     android:fontFamily="@font/strawford_medium"
-                    android:text="Digital Interaction"
+                    android:text="@string/digital_interaction"
                     android:textColor="@color/black" />
 
                 <Button
@@ -318,7 +318,7 @@
                     android:layout_gravity="fill"
                     android:backgroundTint="@color/white"
                     android:fontFamily="@font/strawford_medium"
-                    android:text="Enterprise Tools"
+                    android:text="@string/enterprise_tools"
                     android:textColor="@color/black" />
 
                 <Button
@@ -329,7 +329,7 @@
                     android:layout_gravity="fill"
                     android:backgroundTint="@color/white"
                     android:fontFamily="@font/strawford_medium"
-                    android:text="AR/VR Technology"
+                    android:text="@string/ar_vr_technology"
                     android:textColor="@color/black" />
             </GridLayout>
 

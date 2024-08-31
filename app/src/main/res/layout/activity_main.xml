@@ -59,7 +59,7 @@
                 android:layout_marginStart="3dp"
                 android:layout_marginTop="12dp"
                 android:fontFamily="@font/scilla_regular_italic"
-                android:gravity="left"
+                android:gravity="start"
                 android:text="@string/quote"
                 android:textSize="18sp" />
 

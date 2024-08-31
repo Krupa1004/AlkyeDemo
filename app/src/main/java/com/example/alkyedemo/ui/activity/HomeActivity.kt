@@ -3,12 +3,9 @@ package com.example.alkyedemo.ui.activity
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.databinding.DataBindingUtil
 import com.example.alkyedemo.R
 import com.example.alkyedemo.databinding.ActivityHomeBinding
-import com.example.alkyedemo.databinding.ActivityMainBinding
 import com.example.alkyedemo.model.Item
 import com.example.alkyedemo.ui.adapter.FeaturedArticleAdapter
 import com.example.alkyedemo.ui.adapter.RecentArticleAdapter

@@ -1,13 +1,10 @@
 package com.example.alkyedemo.ui.adapter
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
 import com.example.alkyedemo.R
-import com.example.alkyedemo.databinding.ItemFeaturedArticleBinding
 import com.example.alkyedemo.databinding.ItemSocialConnectBinding
 import com.example.alkyedemo.model.Item
 
